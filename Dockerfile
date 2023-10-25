@@ -73,3 +73,4 @@ HEALTHCHECK --interval=30s --timeout=30s --retries=5 \
     CMD wget --spider http://localhost:3000 || exit 1
 
 CMD ["/calcom/scripts/start.sh"]
+#
